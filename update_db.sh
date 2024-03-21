@@ -38,16 +38,16 @@ echo "#######################################"
 
 remove_symlinks() {
 # Removing the symlinks because GitLab can't handle them.
-rm refined-repo.db
-rm refined-repo.db.sig
-rm refined-repo.files
-rm refined-repo.files.sig
+rm refined_repo.db
+rm refined_repo.db.sig
+rm refined_repo.files
+rm refined_repo.files.sig
 
 # Renaming the tar.gz files without the extension.
-mv refined-repo.db.tar.gz refined-repo.db
-mv refined-repo.db.tar.gz.sig refined-repo-db.sig
-mv refined-repo.files.tar.gz refined-repo.files
-mv refined-repo.files.tar.gz.sig refined-repo.files.sig
+mv refined_repo.db.tar.gz refined-repo.db
+mv refined_repo.db.tar.gz.sig refined-repo-db.sig
+mv refined_repo.files.tar.gz refined-repo.files
+mv refined_repo.files.tar.gz.sig refined-repo.files.sig
 
 echo "#######################################"
 echo "Symlinks have been removed"

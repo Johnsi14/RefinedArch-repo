@@ -36,7 +36,6 @@ echo "#######################################"
 echo "Packages in the repo have been updated!"
 echo "#######################################"
 
-
 remove_symlinks() {
 # Removing the symlinks because GitLab can't handle them.
 rm refined-repo.db

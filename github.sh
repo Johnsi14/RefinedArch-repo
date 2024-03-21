@@ -9,12 +9,12 @@ set -euo pipefail
 
 if (( "$#" == 1 )) 
 then
-   if [ "$1" = "-r" ] 
+    if [ "$1" = "-r" ] 
     then
     ./update_db.sh "-r"
-    else
-    ./update_db.sh
-    fi 
+    fi
+else 
+./update_db.sh
 fi
 
 

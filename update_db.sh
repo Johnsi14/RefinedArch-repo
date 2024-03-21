@@ -20,7 +20,7 @@ echo "###########################"
 
 ## Arch: x86_64
 cd x86_64
-rm -f refined-repo*
+rm -f refined_repo*
 
 echo "###################################"
 echo "Building for architecture 'x86_64'."

@@ -30,7 +30,7 @@ echo "###################################"
 ## -s: signs the packages
 ## -n: only add new packages not already in the database
 ## -R: remove old package files when updating their entry
-repo-add -s -n -R refined_repo.db.tar.gz */*.pkg.tar.zst
+repo-add -s -n -R refined_repo.db.tar.gz *.pkg.tar.zst
 
 echo "#######################################"
 echo "Packages in the repo have been updated!"
